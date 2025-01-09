@@ -2,6 +2,7 @@
 
 * Студент: [Дмитрий Кибец](https://up.htmlacademy.ru/htmlcss-individual/2/user/2601281).
 * Наставник: `Неизвестно`.
+* Сайт: [Мой сайт](https://kibima.github.io/2601281-sedona-2/).
 
 ---
 
