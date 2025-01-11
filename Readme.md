@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий Кибец](https://up.htmlacademy.ru/htmlcss-individual/2/user/2601281).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгения Подопригора](https://htmlacademy.ru/profile/id2387199).
 * Сайт: [Мой сайт](https://kibima.github.io/2601281-sedona-2/).
 
 ---
