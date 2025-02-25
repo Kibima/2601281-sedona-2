@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
 
@@ -37,7 +38,7 @@
         </li>
       </ul>
     </nav>
-      <a class="button button_offer" href="#">Хочу сюда!</a>
+      <a class="button button_header" href="#">Хочу сюда!</a>
   </header>
 
 <main class="main_index">
@@ -57,32 +58,32 @@
       <ul class="advantages_list">
         <li class="advantages_item">
           <div class="advantages_block">
-            <h3 class="advanatges_title">Настоящий городок</h3>
+            <h3 class="advantages_title">Настоящий городок</h3>
             <p class="advantages_description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img class="advantages_photo_city" src="images/index/advantages-photo-1.jpg" alt="Город Седона" width="800" height="385">
           </div>
-          <img class="advantages_photo_city" src="images/index/advantages-photo-1.jpg" alt="Город Седона" width="800" height="385">
         </li>
         <li class="advantages_item">
           <div class="advantages_block">
-            <h3 class="advanatges_title">Небольшая площадь</h3>
+            <h3 class="advantages_title">Небольшая площадь</h3>
             <p class="advantages_description">Все достопримечательности находятся очень близко</p>
           </div>
         </li>
         <li class="advantages_item">
           <div class="advantages_block">
-            <h3 class="advanatges_title">Красивая дорога</h3>
+            <h3 class="advantages_title">Красивая дорога</h3>
             <p class="advantages_description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
         </li>
         <li class="advantages_item">
-          <div class="advantages_block"></div>
-            <h3 class="advanatges_title">Мало туристов</h3>
+          <div class="advantages_block">
+            <h3 class="advantages_title">Мало туристов</h3>
             <p class="advantages_description">Большинство едет в Гранд Каньон и толпится там</p>
           </div>
         </li>
         <li class="advantages_item">
-          <div class="advantages_block"></div>
-            <h3 class="advanatges_title">Там есть мост дьявола</h3>
+          <div class="advantages_block">
+            <h3 class="advantages_title">Там есть мост дьявола</h3>
             <p class="advantages_description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </div>
           <img class="advantages_photo_bridge" src="images/index/advantages-photo-2.jpg" alt="Моста дьявола" width="800" height="385">
@@ -95,20 +96,26 @@
     <p class="invite_description">Опытный персонал и качественное обслуживание!</p>
   </section>
 
-  <section class="advantages">
+  <section class="invite_advantages">
     <h2 class="visually_hidden">Преимущества</h2>
-      <ul class="advantages_list">
-        <li class="advantages_item">
-          <h3 class="advanatges_title">Жильё</h3>
-          <p class="advantages_description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+      <ul class="invite_advantages_list">
+        <li class="invite_advantages_item">
+          <div class="invite_advantages_block">
+            <h3 class="invite_advantages_title">Жильё</h3>
+            <p class="invite_advantages_description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </div>
         </li>
-        <li class="advantages_item">
-          <h3 class="advanatges_title">Еда</h3>
-          <p class="advantages_description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+        <li class="invite_advantages_item">
+          <div class="invite_advantages_block">
+            <h3 class="invite_advantages_title">Еда</h3>
+            <p class="invite_advantages_description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+          </div>
         </li>
-        <li class="advantages_item">
-          <h3 class="advanatges_title">Сувениры</h3>
-          <p class="advantages_description">Не только китайского, но и настоящего местного производства!</p>
+        <li class="invite_advantages_item">
+          <div class="invite_advantages_block">
+            <h3 class="invite_advantages_title">Сувениры</h3>
+            <p class="invite_advantages_description">Не только китайского, но и настоящего местного производства!</p>
+          </div>
         </li>
       </ul>
   </section>
@@ -134,17 +141,17 @@
       <h2 class="visually_hidden">Социальные сети</h2>
       <ul class="footer_social_list">
         <li class="footer_social_item">
-          <a class="social_item_link" target="_blank" rel="noreferrer noopener" href="https://vk.com/htmlacademy">
+          <a class="social_item_link_vk" target="_blank" rel="noreferrer noopener" href="https://vk.com/htmlacademy">
             <span class="visually_hidden">ВКонтакте</span>
           </a>
         </li>
         <li class="footer_social_item">
-          <a class="social_item_link" target="_blank" rel="noreferrer noopener" href="https://t.me/htmlacademy">
+          <a class="social_item_link_tg" target="_blank" rel="noreferrer noopener" href="https://t.me/htmlacademy">
             <span class="visually_hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer_social_item">
-          <a class="social_item_link" target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/user/htmlacademyru">
+          <a class="social_item_link_yt" target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually_hidden">Ютуб</span>
           </a>
         </li>

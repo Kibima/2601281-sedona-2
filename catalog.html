@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Гостиницы</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
@@ -37,7 +38,7 @@
           </a>
         </li>
         <li class="navigation_item">
-          <a class="button button_offer" href="#">Хочу сюда!</a>
+          <a class="button button_header" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
@@ -108,7 +109,7 @@
 
         <fieldset class="catalog_filter_price">
           <legend class="catalog_filter_title">Стоимость, ₽:</legend>
-            <div>
+            <div class="catalog_filter_price_block">
               <label>
                 <input type="number" min="0" max="10000" value="0" required>
               </label>
@@ -123,25 +124,25 @@
       </form>
     </section>
 
-    <section>
-      <h2 class="catalog_results">Найдено гостиниц: 38</h2>
+    <section class="catalog_results">
+      <h2 class="catalog_results_title">Найдено гостиниц: 38</h2>
         <select class="select_control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвые</option>
           <option value="expensive">Сначала дорогие</option>
         </select>
 
-      <ul>
-        <li>
+      <ul class="display_list">
+        <li class="display_item">
           <a class="button_display_current" href="#">
             <span class="visually_hidden">Показать плитками</span>
           </a>
         </li>
-        <li>
+        <li class="display_item">
           <a class="button_display" href="#">
             <span class="visually_hidden">Показать карточками </span>
           </a>
         </li>
-        <li>
+        <li class="display_item">
           <a class="button_display" href="#">
             <span class="visually_hidden">Показать списком</span>
           </a>
@@ -232,9 +233,9 @@
       </ul>
     </section>
 
-    <section class="subscribe">
-      <h2 class="subscribe_title">Подпишитесь на рассылку</h2>
-      <p class="subscribe_description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+    <section class="subscribe_catalog">
+      <h2 class="subscribe_catalog_title">Подпишитесь на рассылку</h2>
+      <p class="subscribe_catalog_description">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscribe_form" action="https://echo.htmlacademy.ru/" method="post">
         <label for="subscribe_email">Email</label>
         <input class="field" type="email" name="subscribe_email" placeholder="Ваш e-mail" required>
@@ -249,17 +250,17 @@
         <h2 class="visually_hidden">Социальные сети</h2>
         <ul class="footer_social_list">
           <li class="footer_social_item">
-            <a class="social_item_link" target="_blank" rel="noreferrer noopener" href="https://vk.com/htmlacademy">
+            <a class="social_item_link_vk" target="_blank" rel="noreferrer noopener" href="https://vk.com/htmlacademy">
               <span class="visually_hidden">ВКонтакте</span>
             </a>
           </li>
           <li class="footer_social_item">
-            <a class="social_item_link" target="_blank" rel="noreferrer noopener" href="https://t.me/htmlacademy">
+            <a class="social_item_link_tg" target="_blank" rel="noreferrer noopener" href="https://t.me/htmlacademy">
               <span class="visually_hidden">Телеграм</span>
             </a>
           </li>
           <li class="footer_social_item">
-            <a class="social_item_link" target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/user/htmlacademyru">
+            <a class="social_item_link_yt" target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually_hidden">Ютуб</span>
             </a>
           </li>
